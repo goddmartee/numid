@@ -1,6 +1,6 @@
 ###### Number Identifier
 
-![License MIT](https://github.com/goddmartee/numid/blob/master/README.md)
+![License MIT](https://img.shields.io/badge/License-MIT-green)
 
 It's a app web, where you can identify two with each other
 
