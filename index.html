@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Number Identifier</title>
+</head>
+<body>
+	<h1>Press the button for identify two numbers</h1>
+	
+	<button onclick="numid()">Identify</button>
+	
+	<script type="text/javascript">
+		function numid() {
+			const NUM = parseInt(prompt("Ingrese un numero"));
+			const NUM1 = parseInt(prompt("Ingrese otro un numero"));
+
+			if (NUM > NUM1) alert(`El numero ${NUM} es mayor que ${NUM1}`);
+
+			if (NUM < NUM1) alert(`El numero ${NUM} es menor que ${NUM1}`);
+
+			if (!NUM || !NUM1) {
+				alert("Ingrese lo numeros por favor");
+				numid();
+			}
+
+			if (NUM || NUM1) alert("Gracias por usar la app")
+		}
+	</script>
+</body>
+</html>
