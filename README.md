@@ -1,6 +1,6 @@
 ###### Number Identifier
 
-![License MIT](https://github.com/goddmarte/numid/readme.md)
+![License MIT](https://github.com/goddmartee/numid/blob/master/README.md)
 
 It's a app web, where you can identify two with each other
 
